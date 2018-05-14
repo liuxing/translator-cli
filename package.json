@@ -1,0 +1,45 @@
+{
+  "name": "translator-cli",
+  "version": "0.1.0",
+  "description": "The command line app for translate",
+  "bin": {
+    "translator": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "translation",
+    "fanyi",
+    "cli"
+  ],
+  "author": "Liu Xing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liuxing/awesome-finder/issues"
+  },
+  "homepage": "https://github.com/liuxing/awesome-finder#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "superagent": "^3.8.3",
+    "update-notifier": "^2.5.0"
+  },
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "husky": "^1.0.0-rc.4",
+    "lint-staged": "^7.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
