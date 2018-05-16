@@ -44,4 +44,4 @@ test  [ test ]    ~ fanyi.youdao.com
 ```
 
 ## LICENSE
-[MIT](./LICENSE) @ Liu Xing
+[MIT](https://github.com/liuxing/translator-cli/blob/master/LICENSE) @ Liu Xing

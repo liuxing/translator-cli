@@ -8,6 +8,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
   "keywords": [
     "translation",
     "fanyi",
@@ -15,15 +26,22 @@
   ],
   "author": "Liu Xing",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/liuxing/awesome-finder/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuxing/translator-cli.git"
   },
-  "homepage": "https://github.com/liuxing/awesome-finder#readme",
+  "bugs": {
+    "url": "https://github.com/liuxing/translator-cli/issues"
+  },
+  "homepage": "https://github.com/liuxing/translator-cli#readme",
   "dependencies": {
     "chalk": "^2.4.1",
     "commander": "^2.15.1",
+    "configstore": "^3.1.2",
     "superagent": "^3.8.3",
-    "update-notifier": "^2.5.0"
+    "update-notifier": "^2.5.0",
+    "xml2js": "^0.4.19",
+    "xml2json": "^0.11.2"
   },
   "devDependencies": {
     "commitizen": "^2.9.6",
