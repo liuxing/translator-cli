@@ -1,4 +1,7 @@
 # translator-cli
+
+[![Travis](https://www.travis-ci.org/liuxing/translator-cli.svg?branch=master)](https://www.travis-ci.org/liuxing/translator-cli)  [![npm version](https://img.shields.io/npm/v/translator-cli.svg)](https://www.npmjs.com/package/translator-cli) [![npm downloads](https://img.shields.io/npm/dm/translator-cli.svg)](https://www.npmjs.com/package/translator-cli) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 > The command line app for translate
 
 ## Install
