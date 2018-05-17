@@ -4,27 +4,33 @@
 ## Install
 
 ```bash
-$ npm install --global translator-cli
+$ npm install -g translator-cli
 ```
 
 ## Features
 
 - translates words, phrases between English and Chinese
+- easy and fast switch between different API (e.g. youdao、iciba)
 
 ## Usage
 
 ```bash
-Usage: translator [options] [command]
+$ translator
 
-Options:
+  Usage: translator [options] [command]
 
-  -V, --version  output the version number
-  -h, --help     output usage information
+  Options:
 
-Commands:
+    -V, --version  output the version number
+    -h, --help     output usage information
 
-  query <words>   Query words
+  Commands:
+
+    query <words>  Query words
+    ls             List all the source
+    use            Change source to source
 ```
+
 ## Examples
 ```bash
 $ translator query test
