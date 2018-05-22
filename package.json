@@ -3,7 +3,9 @@
   "version": "0.2.1",
   "description": "The command line app for translate",
   "bin": {
-    "translator": "bin/cli.js"
+    "translator": "bin/cli.js",
+    "fanyi": "bin/cli.js",
+    "fy": "bin/cli.js"
   },
   "scripts": {
     "test": "jest"

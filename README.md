@@ -34,9 +34,20 @@ $ translator
     use            Change source to source
 ```
 
-## Examples
+Of course, you can also use `fanyi` or `fy `  like:
+
 ```bash
-$ translator query test
+$ fanyi
+# ···
+# or
+$ fy
+# ...
+```
+
+## Examples
+
+```bash
+$ translator query test # fanyi query test
 test  [ test ]    ~ fanyi.youdao.com
 
 - n. 试验；检验
