@@ -1,6 +1,6 @@
 {
   "name": "translator-cli",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "The command line app for translate",
   "bin": {
     "translator": "bin/cli.js",
