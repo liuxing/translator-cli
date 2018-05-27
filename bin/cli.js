@@ -11,7 +11,13 @@ program
   .version(pkg.version)
 
 program
+  .command('*')
+  .description('Query words')
+  .action(translator.query)
+
+program
   .command('query <words>')
+  .alias('q')
   .description('Query words')
   .action(translator.query)
 
@@ -21,7 +27,7 @@ program
   .action(translator.onList)
 
 program
-  .command('use')
+  .command('use <source>')
   .description('Change source to source')
   .action(translator.onUse)
 
