@@ -24,14 +24,15 @@ $ translator
 
   Options:
 
-    -V, --version  output the version number
-    -h, --help     output usage information
+    -V, --version    output the version number
+    -h, --help       output usage information
 
   Commands:
 
-    query <words>  Query words
-    ls             List all the source
-    use            Change source to source
+    *                Query words
+    query|q <words>  Query words
+    ls               List all the source
+    use <source>     Change source to source
 ```
 
 Of course, you can also use `fanyi` or `fy `  like:
@@ -44,10 +45,11 @@ $ fy
 # ...
 ```
 
-## Examples
-
+### Query words
 ```bash
-$ translator query test # fanyi query test
+$ fy <words>
+# e.g.
+$ fy test # or: fy query test、fy q test
 test  [ test ]    ~ fanyi.youdao.com
 
 - n. 试验；检验
@@ -56,11 +58,28 @@ test  [ test ]    ~ fanyi.youdao.com
 - n. (Test)人名；(英)特斯特
 
 1. Test
-   测试,测验,检验
+     测试,测验,检验
+
 2. Test Drive
-   Test Drive,Test Drive,无限狂飙
+     Test Drive,Test Drive,无限狂飙
+
 3. Test Engineer
-   测试员,测试工程师,软件测试工程师
+     测试员,测试工程师,软件测试工程师
+```
+
+### Change source
+
+List all the source
+```bash
+$ fy ls
+*  youdao  -> http://fanyi.youdao.com
+   iciba  -> http://dict-co.iciba.com
+```
+
+Change source to source
+```bash
+$ fy use iciba
+source has been set to: iciba
 ```
 
 ## LICENSE
